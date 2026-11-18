@@ -1,7 +1,11 @@
 {
   "name": "websearch",
-  "private": true,
+  "version": "1.0.0",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hyper-code-harness/websearch"
+  },
   "procs": {
     "configuration": {
       "settings": [
@@ -13,6 +17,10 @@
     "label": "Web Search",
     "icon": "ph-magnifying-glass",
     "optional": true,
-    "description": "Search the public web through the Brave API or Google in the user’s browser."
+    "description": "Search the public web through the Brave API or Google in the user’s browser.",
+    "requires": [
+      "brave",
+      "browser"
+    ]
   }
 }
